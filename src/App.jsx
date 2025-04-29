@@ -34,6 +34,7 @@ import StudentAnnouncement from './pages/Students/StudentAnnouncement';
 import StudentProfile from './pages/Students/StudentProfile';
 // 
 // 
+//finally added some build folder
 // import Library from './pages/Students/Library';
 // import Performance from './pages/Students/Performance';
 // import Profile from './pages/Students/Profile';
