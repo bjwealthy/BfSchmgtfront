@@ -39,18 +39,18 @@ import StudentProfile from './pages/Students/StudentProfile';
 // import Performance from './pages/Students/Performance';
 // import Profile from './pages/Students/Profile';
 
-// //teachers pages import
-// import Announcement from './pages/Teachers/Announcement';
-// import Assignment from './pages/Teachers/Assignment';
-// import Classes from './pages/Teachers/Classes';
-// import Dashboard from './pages/Teachers/Dashboard';
-// import EventCalendar from './pages/Teachers/EventCalendar';
-// import Exam from './pages/Teachers/Exam';
-// import Performance from './pages/Teachers/Performance';
-// import Profile from './pages/Teachers/Profile';
-// import Sidebar from './pages/Teachers/Sidebar';
-// import Students from './pages/Teachers/Students';
-// import Teachers from './pages/Teachers/Teachers';
+//teachers pages import
+import Announcement from './pages/Teachers/Announcement';
+import Assignment from './pages/Teachers/Assignment';
+import Classes from './pages/Teachers/Classes';
+import TeacherDashboard from './pages/Teachers/TeacherDashboard';
+import EventCalendar from './pages/Teachers/EventCalendar';
+import Exam from './pages/Teachers/Exam';
+import Performance from './pages/Teachers/Performance';
+import Profile from './pages/Teachers/Profile';
+import Sidebar from './pages/Teachers/Sidebar';
+import Students from './pages/Teachers/Students';
+import Teachers from './pages/Teachers/Teachers';
 
 
 function App() {
@@ -99,7 +99,7 @@ function App() {
           <Route exact path="/student/profile" element={<StudentProfile />} />   
 
           {/* teaacher routes */}
-          {/* <Route exact path="/teacher/dashboard" element={<AdminDashboard />} /> 
+          <Route exact path="/teacher/dashboard" element={<TeacherDashboard />} /> 
           <Route exact path="/teacherannouncement" element={<Announcement />} /> 
           <Route exact path="/teacher/assignment" element={<Assignment />} /> 
           <Route exact path="/teacher/attendance" element={<Attendance />} /> 
@@ -110,7 +110,7 @@ function App() {
           <Route exact path="/teacher/profile" element={<Profile />} /> 
           <Route exact path="/teacher/sidebar" element={<Sidebar />} /> 
           <Route exact path="/teacher/students" element={<Students />} /> 
-          <Route exact path="/teacher/teachers" element={<Teachers />} />  */}
+          <Route exact path="/teacher/teachers" element={<Teachers />} />  
       
       </Routes>
     </Router>

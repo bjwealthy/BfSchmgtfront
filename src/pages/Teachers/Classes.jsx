@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from '../Students/Sidebar';
+import axios from 'axios';
 
-const Classes = () => {
+
+const ClassSection = () => {
   return (
     <div>
       
@@ -8,4 +11,4 @@ const Classes = () => {
   )
 }
 
-export default Classes
+export default ClassSection
