@@ -3,7 +3,7 @@ import Sidebar from '../Students/Sidebar';
 import axios from 'axios';
 
 
-const ClassSection = () => {
+const TeacherClasses = () => {
   return (
     <div>
       
@@ -11,4 +11,4 @@ const ClassSection = () => {
   )
 }
 
-export default ClassSection
+export default TeacherClasses

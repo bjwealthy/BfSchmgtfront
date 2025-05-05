@@ -1,15 +1,49 @@
-import React from 'react';
-import Sidebar from '../Students/Sidebar';
+
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Sidebar from './TeacherSidebar';
+import EventCalendar from './TeacherCalendar';
+import Announcement from './TeacherAnnouncement';
+import Performance from './TeacherPerformance';
 
-import { ProfileContainer, SidebarContainer, Content, ProfilelHeader, ProfileDetail, Label, Value } from '../../styles/SettingsProfileStyles';
+import { AdminDashboardContainer, Content, TopContent, BottomContent, Section, SectionTitle, CardContainer, Card, CardContent, CardTitle } from '../../styles/DashboardStyles';
 
-const TeacherDashboard = () => {
-  return (
-    <div>
-      Hi teacher
-    </div>
-  )
+const AdminDashboard = () => {
+    return (
+        <AdminDashboardContainer>
+            <Sidebar />
+            <Content>
+                <TopContent>
+                    <Section>
+                        <SectionTitle>Overview</SectionTitle>
+                        <CardContainer>
+                            <Card>
+                                <CardTitle>Total Students</CardTitle>
+                                <CardContent>1500</CardContent>
+                            </Card>
+                            <Card>
+                                <CardTitle>Total Teachers</CardTitle>
+                                <CardContent>300</CardContent>
+                            </Card>
+                            <Card>
+                                <CardTitle>Total Classes</CardTitle>
+                                <CardContent>100</CardContent>
+                            </Card>
+                        </CardContainer>
+                    </Section>
+                    <SectionTitle>All Events</SectionTitle>
+                    {/* <Section>
+                    <EventCalendar events={events} />
+                </Section> */}
+                </TopContent>
+
+                <BottomContent>
+                    <Performance />
+                    <Announcement />
+                </BottomContent>
+            </Content>
+        </AdminDashboardContainer>
+    )
 }
 
-export default TeacherDashboard;
+export default AdminDashboard

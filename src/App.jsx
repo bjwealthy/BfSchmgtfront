@@ -40,17 +40,18 @@ import StudentProfile from './pages/Students/StudentProfile';
 // import Profile from './pages/Students/Profile';
 
 //teachers pages import
-import Announcement from './pages/Teachers/Announcement';
-import Assignment from './pages/Teachers/Assignment';
-import Classes from './pages/Teachers/Classes';
+import TeacherAttendance from './pages/Teachers/TeacherAttendance';
+import TeacherAnnouncement from './pages/Teachers/TeacherAnnouncement';
+import TeacherAssignment from './pages/Teachers/TeacherAssignment';
+import TeacherClasses from './pages/Teachers/TeacherClasses';
 import TeacherDashboard from './pages/Teachers/Dashboard';
-import EventCalendar from './pages/Teachers/EventCalendar';
-import Exam from './pages/Teachers/Exam';
-import Performance from './pages/Teachers/Performance';
-import Profile from './pages/Teachers/Profile';
-import Sidebar from './pages/Teachers/Sidebar';
-import Students from './pages/Teachers/Students';
-import Teachers from './pages/Teachers/Teachers';
+import TeacherCalendar from './pages/Teachers/TeacherCalendar';
+import TeacherExam from './pages/Teachers/TeacherExam';
+import TeacherPerformance from './pages/Teachers/TeacherPerformance';
+import TeacherProfile from './pages/Teachers/TeacherProfile';
+import TeacherSidebar from './pages/Teachers/TeacherSidebar';
+import TeacherStudents from './pages/Teachers/TeacherStudents';
+import TeacherTeachers from './pages/Teachers/TeacherTeachers';
 
 
 function App() {
@@ -100,17 +101,17 @@ function App() {
 
           {/* teaacher routes */}
           <Route exact path="/teacher/dashboard" element={<TeacherDashboard />} /> 
-          <Route exact path="/teacherannouncement" element={<Announcement />} /> 
-          <Route exact path="/teacher/assignment" element={<Assignment />} /> 
-          <Route exact path="/teacher/attendance" element={<Attendance />} /> 
-          <Route exact path="/teacher/classes" element={<Classes />} /> 
-          <Route exact path="/teacher/event-calendar" element={<EventCalendar />} /> 
-          <Route exact path="/teacher/exam" element={<Exam />} /> 
-          <Route exact path="/teacher/performance" element={<Performance />} /> 
-          <Route exact path="/teacher/profile" element={<Profile />} /> 
-          <Route exact path="/teacher/sidebar" element={<Sidebar />} /> 
-          <Route exact path="/teacher/students" element={<Students />} /> 
-          <Route exact path="/teacher/teachers" element={<Teachers />} />  
+          <Route exact path="/teacherannouncement" element={<TeacherAnnouncement />} /> 
+          <Route exact path="/teacher/assignment" element={<TeacherAssignment />} /> 
+          <Route exact path="/teacher/attendance" element={<TeacherAttendance />} /> 
+          <Route exact path="/teacher/classes" element={<TeacherClasses />} /> 
+          <Route exact path="/teacher/calendar" element={<TeacherCalendar />} /> 
+          <Route exact path="/teacher/exam" element={<TeacherExam />} /> 
+          <Route exact path="/teacher/performance" element={<TeacherPerformance />} /> 
+          <Route exact path="/teacher/profile" element={<TeacherProfile />} /> 
+          <Route exact path="/teacher/sidebar" element={<TeacherSidebar />} /> 
+          <Route exact path="/teacher/students" element={<TeacherStudents />} /> 
+          <Route exact path="/teacher/teachers" element={<TeacherTeachers />} />  
       
       </Routes>
     </Router>
