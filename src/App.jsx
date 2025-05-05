@@ -43,7 +43,7 @@ import StudentProfile from './pages/Students/StudentProfile';
 import Announcement from './pages/Teachers/Announcement';
 import Assignment from './pages/Teachers/Assignment';
 import Classes from './pages/Teachers/Classes';
-import TeacherDashboard from './pages/Teachers/TeacherDashboard';
+import TeacherDashboard from './pages/Teachers/Dashboard';
 import EventCalendar from './pages/Teachers/EventCalendar';
 import Exam from './pages/Teachers/Exam';
 import Performance from './pages/Teachers/Performance';
