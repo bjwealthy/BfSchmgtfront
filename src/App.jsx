@@ -52,6 +52,7 @@ import TeacherProfile from './pages/Teachers/TeacherProfile';
 import TeacherSidebar from './pages/Teachers/TeacherSidebar';
 import TeacherStudents from './pages/Teachers/TeacherStudents';
 import TeacherTeachers from './pages/Teachers/TeacherTeachers';
+import TeacherLibrary from './pages/Teachers/TeacherLibrary';
 
 
 function App() {
@@ -112,6 +113,7 @@ function App() {
           <Route exact path="/teacher/sidebar" element={<TeacherSidebar />} /> 
           <Route exact path="/teacher/students" element={<TeacherStudents />} /> 
           <Route exact path="/teacher/teachers" element={<TeacherTeachers />} />  
+          <Route exact path="/teacher/library" element={<TeacherLibrary />} />  
       
       </Routes>
     </Router>

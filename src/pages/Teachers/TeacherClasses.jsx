@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from '../Students/Sidebar';
+import Sidebar from './TeacherSidebar';
 import axios from 'axios';
 
 

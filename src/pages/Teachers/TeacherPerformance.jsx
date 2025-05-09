@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Performance = () => {
+const TeacherPerformance = () => {
   return (
     <div>
-      
+      Teacher Performance comes here
     </div>
   )
 }
 
-export default Performance
+export default TeacherPerformance
