@@ -105,7 +105,7 @@ const Sidebar = () => {
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsFileText /></SidebarIcon>
-          <StyledLink to="/teacher/assignments">Assignments</StyledLink>
+          <StyledLink to="/teacher/assignment">Assignments</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsBook /></SidebarIcon>
