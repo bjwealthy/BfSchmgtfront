@@ -102,7 +102,7 @@ function App() {
 
           {/* teaacher routes */}
           <Route exact path="/teacher/dashboard" element={<TeacherDashboard />} /> 
-          <Route exact path="/announcement" element={<TeacherAnnouncement />} /> 
+          <Route exact path="/teacher/announcement" element={<TeacherAnnouncement />} /> 
           <Route exact path="/teacher/assignment" element={<TeacherAssignment />} /> 
           <Route exact path="/teacher/attendance" element={<TeacherAttendance />} /> 
           <Route exact path="/teacher/classes" element={<TeacherClasses />} /> 
