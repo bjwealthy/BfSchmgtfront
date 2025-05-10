@@ -109,7 +109,7 @@ const Sidebar = () => {
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsBook /></SidebarIcon>
-          <StyledLink to="/teacher/exams">Exams</StyledLink>
+          <StyledLink to="/teacher/exam">Exams</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsGraphDown /></SidebarIcon>
@@ -125,7 +125,7 @@ const Sidebar = () => {
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsChatDots /></SidebarIcon>
-          <StyledLink to="/teacher/communication">Announcement</StyledLink>
+          <StyledLink to="/teacher/announcement">Announcement</StyledLink>
         </SidebarNavItem>
         <SidebarNavItem>
           <SidebarIcon><BsCalendarEvent /></SidebarIcon>

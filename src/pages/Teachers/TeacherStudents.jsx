@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from './TeacherSidebar';
+import axios from 'axios';
+
+import {StudentsContainer, Content, StudentsHeader, StudentList, StudentItem, AddStudentButton, AddStudentForm, AddStudentInput} from '../../styles/StudentsStyles';
 
 const TeacherStudents = () => {
   return (
-    <div>
-      Teacher stiudents come here
-    </div>
+    <StudentsContainer>
+      <Sidebar />
+      <Content>
+        <StudentsContainer>
+          <StudentsHeader>Students</StudentsHeader>
+          <StudentList>
+            {/* list of students goes here */}
+          </StudentList>
+        </StudentsContainer>
+      </Content>
+    </StudentsContainer>
   )
 }
 

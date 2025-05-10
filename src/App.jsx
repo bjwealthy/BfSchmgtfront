@@ -44,7 +44,7 @@ import TeacherAttendance from './pages/Teachers/TeacherAttendance';
 import TeacherAnnouncement from './pages/Teachers/TeacherAnnouncement';
 import TeacherAssignment from './pages/Teachers/TeacherAssignment';
 import TeacherClasses from './pages/Teachers/TeacherClasses';
-import TeacherDashboard from './pages/Teachers/Dashboard';
+import TeacherDashboard from './pages/Teachers/TeacherDashboard';
 import TeacherCalendar from './pages/Teachers/TeacherCalendar';
 import TeacherExam from './pages/Teachers/TeacherExam';
 import TeacherPerformance from './pages/Teachers/TeacherPerformance';
@@ -75,7 +75,7 @@ function App() {
           <Route exact path="/admin/dashboard" element={<AdminDashboard />} />
           <Route exact path="/admin/students" element={<Students />} />
           <Route exact path="/admin/teachers" element={<Teachers />} />  
-          <Route exact path="/admin/communication" element={<Announcement />} /> 
+          <Route exact path="/admin/announcement" element={<Announcement />} /> 
           <Route exact path="/admin/attendance" element={<Attendance />} />
           <Route exact path="/admin/assignments" element={<Assignment />} /> 
           <Route exact path="/admin/classes" element={<Classes />} /> 
@@ -92,7 +92,7 @@ function App() {
           <Route exact path="/student/StudentLibrary" element={<StudentLibrary />}  />
           <Route exact path="/student/dashboard" element={<StudentDashboard />} /> 
           <Route exact path="/student/attendance" element={<StudentAttendance />} /> 
-          <Route exact path="/student/communication" element={<StudentAnnouncement />} /> 
+          <Route exact path="/student/announcement" element={<StudentAnnouncement />} /> 
           <Route exact path="/student/assignments" element={<StudentAssignments />} /> 
           <Route exact path="/student/classes" element={<Classes />} />  
           <Route exact path="/student/exam" element={<StudentExam />} /> 
@@ -102,7 +102,7 @@ function App() {
 
           {/* teaacher routes */}
           <Route exact path="/teacher/dashboard" element={<TeacherDashboard />} /> 
-          <Route exact path="/teacherannouncement" element={<TeacherAnnouncement />} /> 
+          <Route exact path="/announcement" element={<TeacherAnnouncement />} /> 
           <Route exact path="/teacher/assignment" element={<TeacherAssignment />} /> 
           <Route exact path="/teacher/attendance" element={<TeacherAttendance />} /> 
           <Route exact path="/teacher/classes" element={<TeacherClasses />} /> 

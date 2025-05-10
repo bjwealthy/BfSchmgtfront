@@ -2,18 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Sidebar from './TeacherSidebar';
-import EventCalendar from './TeacherCalendar';
-import Announcement from './TeacherAnnouncement';
-import Performance from './TeacherPerformance';
 
-import { AdminDashboardContainer, Content, TopContent, BottomContent, Section, SectionTitle, CardContainer, Card, CardContent, CardTitle } from '../../styles/DashboardStyles';
+import { TeacherDashboardContainer, Content, Section, SectionTitle, CardContainer, Card, CardTitle, CardContent} from '../../styles/DashboardStyles';
 
-const AdminDashboard = () => {
+const TeacherDashboard = () => {
     return (
-        <AdminDashboardContainer>
+        <TeacherDashboardContainer>
             <Sidebar />
             <Content>
-                <TopContent>
+                <Content>
                     <Section>
                         <SectionTitle>Overview</SectionTitle>
                         <CardContainer>
@@ -32,18 +29,16 @@ const AdminDashboard = () => {
                         </CardContainer>
                     </Section>
                     <SectionTitle>All Events</SectionTitle>
-                    {/* <Section>
-                    <EventCalendar events={events} />
-                </Section> */}
-                </TopContent>
-
-                <BottomContent>
-                    <Performance />
-                    <Announcement />
-                </BottomContent>
+                    <Section>
+                        <SectionTitle>Recent Activities</SectionTitle>
+                    </Section>
+                    <Section>
+                        <SectionTitle>Upcoming Events</SectionTitle>
+                    </Section>
+                </Content>
             </Content>
-        </AdminDashboardContainer>
+        </TeacherDashboardContainer>
     )
 }
 
-export default AdminDashboard
+export default TeacherDashboard
