@@ -109,7 +109,7 @@ function App() {
           <Route exact path="/teacher/calendar" element={<TeacherCalendar />} /> 
           <Route exact path="/teacher/exam" element={<TeacherExam />} /> 
           <Route exact path="/teacher/performance" element={<TeacherPerformance />} /> 
-          <Route exact path="/teacher/profile" element={<TeacherProfile />} /> 
+          <Route exact path="/teacher/settings" element={<TeacherProfile />} /> 
           <Route exact path="/teacher/sidebar" element={<TeacherSidebar />} /> 
           <Route exact path="/teacher/students" element={<TeacherStudents />} /> 
           <Route exact path="/teacher/teachers" element={<TeacherTeachers />} />  
