@@ -88,7 +88,9 @@ const Sidebar = () => {
   return (
     <SidebarContainer style={{ width: isOpen ? '250px' : '80px' }}>
     <SidebarHeader>
-      <Logo src={bg1} alt="Logo" />
+      {/* <Logo src={bg1} alt="Logo" to="/admin/dashboard"/> */}
+      <StyledLink to="/"><Logo src={bg1} alt="Logo" /></StyledLink>
+            
     </SidebarHeader>
     <SidebarNav>
       <SidebarNavItem>
