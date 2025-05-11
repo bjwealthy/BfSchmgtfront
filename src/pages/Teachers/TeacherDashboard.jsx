@@ -38,7 +38,7 @@ const TeacherDashboard = () => {
                 </Content>
             </Content>
         </TeacherDashboardContainer>
-    )
+     )
 }
 
 export default TeacherDashboard
